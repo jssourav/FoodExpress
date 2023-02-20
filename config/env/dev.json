@@ -1,0 +1,20 @@
+{
+  "APP_NAME": "food-express",
+  "JWT_SECRET": "Th!se*amPl30fSecret",
+  "TOKEN_KEY": "XXXX-XXXX-XXXX",
+  "PASSWORD_KEY": "XXXX-XXXX-XXXX",
+  "BCRYPT_SALT": 15,
+  "role": {
+    "ADMIN": [
+      "admin"
+    ],
+    "USER": [
+      "user",
+      "admin"
+    ]
+  },
+  "url": {
+    "CLIENT_URL": "localhost:8080/users",
+    "BASE_URL": "localhost:8080"
+  }
+}
